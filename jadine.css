@@ -1,0 +1,129 @@
+body {
+			background-color: black;
+	}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00b3b3;
+	margin-top:5px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+	
+}
+
+li a:hover:not(.active) {
+   opacity: 0.5;
+}
+
+.active {
+    background-color:  #006666;
+}
+div.gallery{
+    margin: 20px;
+    margin-top: 20px;
+	margin-left:3px;
+	float: left;
+}
+div.jay{
+	font-family: 'Roboto Condensed';
+	float:left;
+	color: white;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 25px;
+}
+p{
+	font-family: 'Roboto Condensed';
+	float:left;
+	color: white;
+	margin-top: 30px;
+	margin-left: 3px;
+	font-size: 20px;
+	line-height: 1.5;
+}
+h3 {
+	font-family: 'Roboto Condensed';
+	color: 	white;
+	font-size:20px;
+}
+/* Five columns side by side */
+.column {
+    float: right;
+    width: 20%;
+    margin-bottom: 16px;
+    padding: 0 20px;
+	margin-top:20px;
+}
+.columnn {
+    float: right;
+    width: 20%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+	margin-top:20px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+/* Display the columns below each other instead of side by side on small screens */
+@media (max-width: 650px) {
+    .columnn {
+        width: 100%;
+        display: block;
+    }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+    padding: 0 5px;
+	font-family: Roboto Condensed; 
+	
+}
+
+/* Clear floats */
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+	font-family: 'Roboto Condensed';
+    color: grey;
+	
+}
+div.jadd, h1 {
+		font-size: 80px;
+		text-align: center;
+		color: white;
+		}
+div.jadd, p	{
+		text-align: center;
+		}
+div.jadd, p, h3	{
+			text-align: center;
+			font-size: 20px;
+			font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+			}
